@@ -8,11 +8,15 @@ Feel free to rip out the pieces you want from this repo. It’s a pretty good st
 
 # Installation
 
-`npm install`
+In your terminal/cmd `npm install`
 
 # Running
 
-`gulp` or `node_modules/.bin/gulp`
+In your terminal/cmd `gulp` or `node_modules/.bin/gulp`
+
+Navigate to `http://localhost:8080`
+
+(This project does not make use of livereload, mainly because I’m not a huge believer… I trust you know where your browser’s refresh button is. If you really want it, a quick google search will find you a fantastic copy-paste)
 
 # License Information
 
