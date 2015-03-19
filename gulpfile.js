@@ -47,7 +47,7 @@ gulp.task('serve', function () {
     server.get('/*', function (req, res) {
         res.sendFile(__dirname + '/dist/index.html');
     });
-    server.listen(8080);
+    server.listen(port);
 });
 
 gulp.task('default', ['serve', 'build', 'watch']);
